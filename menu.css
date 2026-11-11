@@ -56,6 +56,7 @@ body::before {
   background-image:
     linear-gradient(rgb(0 0 0 / 32%), rgb(0 0 0 / 32%)),
     url("images/background%201.png");
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
