@@ -56,7 +56,6 @@ body::before {
   background-image:
     linear-gradient(rgb(0 0 0 / 32%), rgb(0 0 0 / 32%)),
     url("images/background%201.png");
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -591,6 +590,8 @@ a.footer-whatsapp:focus-visible {
 
 @media (max-width: 700px), (max-aspect-ratio: 1 / 1) {
   body::before {
+    inset: 0 0 auto;
+    height: 100vh;
     background-image:
       linear-gradient(rgb(0 0 0 / 56%), rgb(0 0 0 / 56%)),
       url("images/backgroudn%202.png");
