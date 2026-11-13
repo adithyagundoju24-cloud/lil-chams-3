@@ -592,10 +592,12 @@ a.footer-whatsapp:focus-visible {
   body::before {
     inset: 0 0 auto;
     height: 100vh;
+    height: 100lvh;
     background-image:
       linear-gradient(rgb(0 0 0 / 56%), rgb(0 0 0 / 56%)),
       url("images/backgroudn%202.png");
     background-size: cover;
+    background-position: center top;
   }
 
   .menu-page {
